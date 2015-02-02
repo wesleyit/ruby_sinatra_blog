@@ -1,28 +1,29 @@
 <!doctype html>
 <html>
-<head lang="pt-BR">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title> WESLEY RODRIGUES - simples | descomplicado </title> 
-  <meta name="description" content="Site pessoal de Wesley Rodrigues, profissional de TI que atua como DevOps na Concrete Solitions e estuda Inteligência Artificial">      
-  <meta name="keywords" content="Linux, Bash, Shell Script, Inteligência Artificial, DevOps, Cloud Computing">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-	<div class="container-fluid">
-		<div class="page-header">
-		  <h1>Example Page Header</h1>
+	<head lang="pt-BR">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title> WESLEY RODRIGUES - simples | descomplicado </title> 
+		<meta name="description" content="Site pessoal de Wesley Rodrigues, profissional de TI que atua como DevOps na Concrete Solitions e estuda Inteligência Artificial">      
+		<meta name="keywords" content="Linux, Bash, Shell Script, Inteligência Artificial, DevOps, Cloud Computing">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="page-header">
+				<h1>Example Page Header</h1>
+			</div>
+				<ul class="nav nav-tabs navbar-fixed-top">
+					<li><a href="/blog">blog</a></li>
+					<li><a href="/sobre">sobre</a></li>
+					<li class="active"><a href="/profissional">profissional</a></li>
+					<li><a href="/academico">acadêmico</a></li>
+					<li><a href="/contato">contato</a></li>
+				</ul>
+				<br>
+			<%= yield %>
 		</div>
-			<ul class="nav nav-tabs">
-			  <li class="active"><a href="/blog">blog</a></li>
-			  <li><a href="/sobre">sobre</a></li>
-			  <li><a href="/profissional">profissional</a></li>
-			  <li><a href="/academico">acadêmico</a></li>
-			  <li><a href="/contato">contato</a></li>
-			</ul>
-  	<%= yield %>
-	</div>
-</body>
+	</body>
 </html>
